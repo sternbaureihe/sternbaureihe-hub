@@ -1,0 +1,7 @@
+.wrap{min-height:60vh;display:flex;align-items:center;justify-content:center;padding:40px;}
+.inner{max-width:480px;}
+.accent{width:24px;height:1px;background:var(--accent-l);margin-bottom:16px;}
+.eyebrow{font-family:var(--mono);font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent-l);margin-bottom:12px;}
+.headline{font-size:28px;font-weight:300;color:var(--text-bright);margin-bottom:14px;line-height:1.2;}
+.body{font-size:13px;color:var(--text-dim);line-height:1.8;margin-bottom:24px;}
+.back{font-family:var(--mono);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent-l);text-decoration:none;}
