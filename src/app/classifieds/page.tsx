@@ -1,0 +1,2 @@
+import Nav from '@/components/Nav'; import Footer from '@/components/Footer'; import styles from './page.module.css';
+export default function Page() { return (<><Nav /><div className={styles.wrap}><div className={styles.accent} /><div className={styles.eyebrow}>Classifieds</div><h1 className={styles.headline}>Classifieds.</h1><p className={styles.body}>Mercedes-Benz vehicles and parts across all chassis codes. Post a listing or browse current inventory.</p></div><Footer /></>) }

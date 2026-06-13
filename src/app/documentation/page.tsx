@@ -1,0 +1,2 @@
+import Nav from '@/components/Nav'; import Footer from '@/components/Footer'; import styles from './page.module.css';
+export default function Page() { return (<><Nav /><div className={styles.wrap}><div className={styles.accent} /><div className={styles.eyebrow}>Documentation</div><h1 className={styles.headline}>Documentation.</h1><p className={styles.body}>Factory workshop manuals, parts catalogs, technical bulletins, and service documentation. Primary sources only.</p></div><Footer /></>) }

@@ -1,0 +1,2 @@
+import Nav from '@/components/Nav'; import Footer from '@/components/Footer'; import styles from './page.module.css';
+export default function Page() { return (<><Nav /><div className={styles.wrap}><div className={styles.accent} /><div className={styles.eyebrow}>Contact</div><h1 className={styles.headline}>Contact.</h1><p className={styles.body}>For technical documentation inquiries, corrections, or submissions. For advertising inquiries use the Advertise page.</p></div><Footer /></>) }

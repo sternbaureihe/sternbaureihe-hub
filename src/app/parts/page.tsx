@@ -1,0 +1,2 @@
+import Nav from '@/components/Nav'; import Footer from '@/components/Footer'; import styles from './page.module.css';
+export default function Page() { return (<><Nav /><div className={styles.wrap}><div className={styles.accent} /><div className={styles.eyebrow}>Parts</div><h1 className={styles.headline}>Parts.</h1><p className={styles.body}>OEM parts references, supersession chains, and interchangeability data across Mercedes-Benz chassis codes.</p></div><Footer /></>) }

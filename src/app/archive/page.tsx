@@ -1,0 +1,2 @@
+import Nav from '@/components/Nav'; import Footer from '@/components/Footer'; import styles from './page.module.css';
+export default function Page() { return (<><Nav /><div className={styles.wrap}><div className={styles.accent} /><div className={styles.eyebrow}>Archive</div><h1 className={styles.headline}>Archive.</h1><p className={styles.body}>Primary source technical literature. Workshop manuals, parts references, technical bulletins, and factory documentation across all chassis codes.</p></div><Footer /></>) }

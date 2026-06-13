@@ -1,0 +1,2 @@
+import Nav from '@/components/Nav'; import Footer from '@/components/Footer'; import styles from './page.module.css';
+export default function Page() { return (<><Nav /><div className={styles.wrap}><div className={styles.accent} /><div className={styles.eyebrow}>Articles</div><h1 className={styles.headline}>Articles.</h1><p className={styles.body}>Technical analysis, chassis comparisons, and engineering research based on primary source documentation.</p></div><Footer /></>) }
